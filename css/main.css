@@ -499,6 +499,13 @@ html { height: 100%;}
 .bn-terraza {
   background-image: url('../img/IMG_3104.jpg');
 }
+.bn-gracias {
+  background-image: url('../img/producto2.jpg');
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 
 .bg-formato {
   height: 200px;
