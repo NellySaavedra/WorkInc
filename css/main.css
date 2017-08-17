@@ -686,6 +686,9 @@ td {
   h1 {
     font-size: 27px;
   }
+  .mt-70-rps {
+    margin-top: 70px;
+  }
   .p-box-30 {
     padding: 10px;
   }
