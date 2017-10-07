@@ -87,25 +87,25 @@
 						<div class="col-lg-4 font-white">
 							<h3 class="font-pattaya">Transporte cercano</h3>
 							<ul>
-								<li class="out-stile m-t-20"><a href="" class="font-white font-s hover-transporte" target="_blank"><i class="m-r-10 fa fa-subway" aria-hidden="true"></i> Metro Insurgentes</a></li>
-								<li class="out-stile wow fadeInRightBig m-t-20" data-wow-duration=".6s"><a href="" class="font-white font-s hover-transporte" target="_blank"><i class="m-r-10 fa fa-subway" aria-hidden="true"></i> Metro Sevilla</a></li>
-								<li class="out-stile wow fadeInRightBig m-t-20" data-wow-duration=".9s"><a href="" class="font-white font-s hover-transporte" target="_blank"><i class="m-r-10 fa fa-bus" aria-hidden="true"></i> Metro bus Hamburgo</a></li>
-								<li class="out-stile wow fadeInRightBig m-t-20" data-wow-duration="1.2s"><a href="" class="font-white font-s hover-transporte" target="_blank"><i class="m-r-10 fa fa-bus" aria-hidden="true"></i> Metro bus Reforma</a></li>
-								<li class="out-stile wow fadeInRightBig m-t-20" data-wow-duration="1.5s"><a href="" class="font-white font-s hover-transporte" target="_blank"><i class="m-r-10 fa fa-bicycle" aria-hidden="true"></i> EcoBici</a></li>
+								<li class="out-stile m-t-20"><i class="m-r-10 fa fa-subway" aria-hidden="true"></i> Metro Insurgentes</a></li>
+								<li class="out-stile wow fadeInRightBig m-t-20" data-wow-duration=".6s"><i class="m-r-10 fa fa-subway" aria-hidden="true"></i> Metro Sevilla</a></li>
+								<li class="out-stile wow fadeInRightBig m-t-20" data-wow-duration=".9s"><i class="m-r-10 fa fa-bus" aria-hidden="true"></i> Metro bus Hamburgo</a></li>
+								<li class="out-stile wow fadeInRightBig m-t-20" data-wow-duration="1.2s"><i class="m-r-10 fa fa-bus" aria-hidden="true"></i> Metro bus Reforma</a></li>
+								<li class="out-stile wow fadeInRightBig m-t-20" data-wow-duration="1.5s"><i class="m-r-10 fa fa-bicycle" aria-hidden="true"></i> EcoBici</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-5 p-box-30">
-					<form action="">
+					<form action="/formulario.php" method="POST">
 						<label for="">Nombre</label>
-						<input type="text" name="firstname" class="box-radius-3 m-b-20 wow fadeInRightBig"><br>
+						<input type="text" name="nombre" class="box-radius-3 m-b-20 wow fadeInRightBig"><br>
 						<label for="">E-mail</label>
-						<input type="text" name="E-mail" class="box-radius-3 m-b-20 wow fadeInLeftBig"><br>
+						<input type="text" name="email" class="box-radius-3 m-b-20 wow fadeInLeftBig"><br>
 						<label for="">Teléfono <span>(opcional)</span></label>
-						<input type="text" name="firstname" class="box-radius-3 m-b-20 wow fadeInRightBig"><br>
-						<label for="">¿Qué necesitas saber?</label>
-						<input type="text" name="mensaje" class="box-radius-3 m-b-20 wow fadeInLeftBig"><br>
+						<input type="text" name="telefono" class="box-radius-3 m-b-20 wow fadeInRightBig"><br>
+						<label for="">¿Qué necesitas saber?</label><br>
+						<textarea name="mensaje" id="" cols="30" rows="10"></textarea><br>
 						<input type="submit" value="Enviar" class="font-white p-box-10 box-radius-3 btn-enviar">
 					</form>
 				</div>

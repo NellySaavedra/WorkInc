@@ -612,7 +612,7 @@ html { height: 100%;}
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-input {
+input, textarea {
   background-color: transparent;
   width: 100%;
   border: 2px solid #d10500;
